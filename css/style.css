@@ -178,7 +178,7 @@ img {
   width: 90px;
   height: 5px;
   border-radius: 3px;
-  background-color: var(--main-color);
+  background-color: #B22222;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -202,7 +202,7 @@ img {
 .btn {
   display: inline-block;
   padding: 0.85rem 2rem;
-  background-color: var(--main-color);
+  background-color: #B22222;
   color: var(--light-one);
   border-radius: 2rem;
   font-size: 1.05rem;
@@ -212,7 +212,7 @@ img {
 }
 
 .btn:hover {
-  background-color: #6b44e0;
+  background-color: #B22222;
 }
 
 .btn.small {
@@ -434,7 +434,6 @@ header .circle {
 
 .card-wrap {
   position: relative;
-  margin: 1.7rem 0.8rem;
 }
 
 .card {
@@ -471,7 +470,7 @@ header .circle {
   height: 0px;
   bottom: 0;
   left: 0;
-  background-color: var(--main-color);
+  background-color: #B22222;
   transition: 0.3s;
 }
 
@@ -760,11 +759,11 @@ header .circle {
 }
 
 .about .column-1:before {
-  content: "About";
+  content: "A propos";
   position: absolute;
   font-size: 8rem;
   font-weight: 800;
-  color: var(--main-color);
+  color: #B22222;
   opacity: 0.04;
   top: 20px;
   left: 0;
@@ -899,7 +898,7 @@ header .circle {
   height: 0px;
   bottom: 0;
   left: 0;
-  background-color: var(--main-color);
+  background-color: #B22222;
   transition: 0.3s;
 }
 
@@ -1310,7 +1309,7 @@ header .circle {
 }
 
 .copyright .text span {
-  color: var(--main-color);
+  color: #B22222;
   cursor: pointer;
 }
 
@@ -1359,7 +1358,7 @@ header .circle {
   justify-content: center;
   height: 55px;
   width: 55px;
-  background-color: var(--main-color);
+  background-color: #B22222;
   border-radius: 50%;
   color: #fff;
   font-size: 1.2rem;
