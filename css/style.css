@@ -451,6 +451,25 @@ header .circle {
   transition: 0.3s;
 }
 
+.content
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+#services .link a
+{
+	margin: 15px 0 0;
+	display: inline-block;
+
+	text-decoration: none;
+	font-weight: 900;
+	color: #222;
+	padding: 5px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+
 .card:before {
   content: attr(data-card);
   position: absolute;
@@ -1426,7 +1445,6 @@ header .circle {
 
 }
 .veille .content .testimonialBx {
-	max-width: calc(50% - 40px);
 	padding: 60px 40px;
 	margin: 20px;
 	background: #f15025;
